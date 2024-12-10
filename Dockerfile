@@ -10,4 +10,4 @@ COPY --from=builder /app/venv /app/venv
 ENV PATH=/app/venv/bin:$PATH
 COPY . .
 EXPOSE 8000
-ENTRYPOINT /app/docker-entrypoint.sh
+ENTRYPOINT [ "/app/docker-entrypoint.sh" ]
