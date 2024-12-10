@@ -1,0 +1,10 @@
+# Ignore everything
+**
+
+# Allowed
+!measurement/
+!smart_home/
+!manage.py
+!requirements.txt
+!Dockerfile
+!docker-entrypoint.sh
