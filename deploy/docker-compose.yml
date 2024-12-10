@@ -30,7 +30,7 @@ services:
     container_name: django
     build: .. 
     expose:
-      - 8000
+      - 8080
     depends_on:
       - postgres
       - nginx
