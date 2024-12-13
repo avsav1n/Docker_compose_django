@@ -8,4 +8,4 @@ python manage.py makemigrations
 python manage.py migrate
 
 echo "Starting server"
-gunicorn -w 3 smart_home.wsgi -b 0.0.0.0:8080
+gunicorn -w 3 smart_home.wsgi -b unix:/app/socket/wsgi.socket
